@@ -1,0 +1,8 @@
+import os 
+
+
+os.system(r'cmd /c "mongoimport --host CSC-394-Group-3-shard-0/csc-394-group-3-shard-00-00-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-01-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-02-irbyo.mongodb.net:27017 --ssl --username JWOYWOD1 --password BeanBoi --authenticationDatabase admin --db CSJobApps --collection "JobApps" --type csv --file "C:\Users\marci\Desktop\School Classes\Depaul\CSC 394\Project\CSC394-Team3\Python Scraper\.vscode\StackoverflowData.csv" --headerline"')
+
+os.system(r'cmd /c "mongoimport --host CSC-394-Group-3-shard-0/csc-394-group-3-shard-00-00-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-01-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-02-irbyo.mongodb.net:27017 --ssl --username JWOYWOD1 --password BeanBoi --authenticationDatabase admin --db CSJobApps --collection "JobApps" --type csv --file "C:\Users\marci\Desktop\School Classes\Depaul\CSC 394\Project\CSC394-Team3\Python Scraper\.vscode\IndeedData.csv" --headerline"')
+
+os.system(r'cmd /c "mongoimport --host CSC-394-Group-3-shard-0/csc-394-group-3-shard-00-00-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-01-irbyo.mongodb.net:27017,csc-394-group-3-shard-00-02-irbyo.mongodb.net:27017 --ssl --username JWOYWOD1 --password BeanBoi --authenticationDatabase admin --db CSJobApps --collection "JobApps" --type csv --file "C:\Users\marci\Desktop\School Classes\Depaul\CSC 394\Project\CSC394-Team3\Python Scraper\.vscode\GlassdoorData.csv" --headerline"')
